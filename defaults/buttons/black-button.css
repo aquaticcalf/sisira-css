@@ -1,0 +1,27 @@
+.black-button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.black-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 8px 28px;
+}
+
+.black-button:disabled {
+    background-color: rgb(158, 157, 157);
+    color: rgb(97, 97, 97);
+    cursor: none;
+}
+
+.black-button:disabled:hover {
+    background-color: rgb(158, 157, 157);
+    color: rgb(97, 97, 97);
+    border: none; 
+    padding: 10px 30px;
+}
